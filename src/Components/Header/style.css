@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&family=Roboto:wght@100;300&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+:root {
+    --roxo: #1F0D29;
+    --branco: #FFFFFF;
+    --roxo-claro: #AB4ABA;
+} 
+
+header {
+    height:  calc(100vh - 150px);
+    background: var(--roxo);
+}
+
+header .link {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 15px;
+    position: relative;   
+    bottom: 40px;
+    left: 30%;
+    padding-left: 90px;
+    justify-content: space-around;
+}
+
+header a:hover {
+    color: var(--roxo-claro);
+    transition: all 1s;
+}
+
+.img-logo img {
+    position: relative;
+    width: 65px;
+    left: 50px;
+    top: 10px;
+
+}

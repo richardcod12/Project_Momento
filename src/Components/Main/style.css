@@ -1,0 +1,59 @@
+
+:root {
+    --roxo: #1F0D29;
+}
+
+.main-container{
+    height: 1000px;
+    background-color: var(--roxo); 
+}
+
+.main-context {
+    width: 60%;
+    position: relative;
+    left: 120px;
+    color: aliceblue;
+}
+
+.main-context .context-font1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.main-context .context-font2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.main-context .context-font3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+.container-buttons {
+    position: relative;
+    width: 50%;
+    left: 350px;
+    top: 200px;
+}
+
+.container-buttons button {
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: 80px;
+    border-bottom:  solid 1px #1F0D29;
+    border-top: solid 1px #0ED2DE;
+    border-left: solid 1px #0ED2DE;
+    border-right: solid 1px #0ED2DE;
+}
+
+.container-buttons button:hover {
+    color: #1F0D29;
+    background: linear-gradient(45deg, #1F0D29 ,#1aaab2 );
+    border-bottom:  solid 1px #1aaab2;
+    border-top: solid 1px #1aaab2;
+    border-left: solid 1px #1aaab2;
+    border-right: solid 1px #1aaab2;
+
+}
