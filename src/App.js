@@ -1,3 +1,4 @@
+import Section4 from './Components/Section4';
 import './App.css';
 import Header from './Components/Header';
 import Main from './Components/Main';
@@ -7,6 +8,7 @@ function App() {
       <>
         <Header/>
         <Main />
+        <Section4 />
       </>
       
       
